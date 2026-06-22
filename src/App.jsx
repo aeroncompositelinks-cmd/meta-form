@@ -111,18 +111,15 @@ function App() {
 
   return (
     <div className="app-layout">
-      {/* Dynamic colorful decorative background blobs */}
+      {/* Decorative peach background elements */}
       <div className="bg-blob blob-1"></div>
       <div className="bg-blob blob-2"></div>
-      <div className="bg-blob blob-3"></div>
 
       <div className="form-card-container">
         {/* Brand header above card */}
         <header className="brand-header">
-          <div className="brand-logo-container">
-            <span className="brand-logo-text">AERON COMPOSITE</span>
-            <span className="brand-tagline">THE COMPOSITE EXPERT</span>
-          </div>
+          <img src="/logo.jpg" alt="Aeron Logo" className="brand-logo-img" />
+          <span className="brand-tagline">THE COMPOSITE EXPERT</span>
         </header>
 
         <div className="form-card">
